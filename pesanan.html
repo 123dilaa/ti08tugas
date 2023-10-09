@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Pesanan Barang</title>
+        <body>
+            <h2 style="text-align: center">Pesanan Barang</h2>
+            <from action="hasilform.html" method="POST">
+                <fieldset>
+                    <legend><b>Pesanan Barang</b></legend>
+                    <label for="nama">Nama</label>
+                    <input type="nama" placeholder="Masukkan Nama Lengkap">
+                    <br>
+                    <br>
+                    <label for="nama barang">Nama Pakaian</label>
+                    <select name="nama barang" id="nama barang">
+                        <option value="Baju">Sweater</option>
+                        <option value="celana">celana jeans</option>
+                        <option value="kaos anime">kaos anime</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="ukuran pakaian">ukuran pakaian</label>
+                    <select name="ukuran pakaian" id="ukuran pakaian">
+                        <option value="xl">XL</option>
+                        <option value="xxl">XXL</option>
+                        <option value="l">L</option>
+                    </select>
+                    <div>
+                        <label> Warna </label>
+                        <input type="color" name="warna" value="*00000" />
+                    </div>
+                    <br>
+                    <br>
+                    <label for="jumlah pesanan">jumlah pesanan</label>
+                    <textarea name="jumlah pesanan" id="jumlah pesanan" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <p>
+                        <h3> model pakaian </h3>
+                        <br>
+                        <br>
+                    <img src="kaos.jpg" alt="Image" height="100" width="50"/>
+                    <img src="Sweater.jpg" alt="Image" height="100" width="50"/>
+                    <img src="celana.jpg" alt="Image" height="100" width="50"/>
+                    </p>
+                    <div> 
+                        <input type="submit" value="Beli" />
+                        <input type="reset" value="batal" />
+                    </div>
+                </fieldset>
+            </from>
+        </body> 
+    </head>   
+</html>
